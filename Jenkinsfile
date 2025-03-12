@@ -13,7 +13,7 @@ node
 	{
 	 sh	"${mavenHome}/bin/mvn clean package"
 	}
-	stage('SQ Report')
+	/*stage('SQ Report')
 	{
 	 sh	"${mavenHome}/bin/mvn sonar:sonar"
 	}
@@ -30,5 +30,5 @@ node
   "http://52.64.253.191:8080/manager/text/deploy?path=/maven-web-application/&update=true"
 """
 	 
-	}
+	} */
 }
