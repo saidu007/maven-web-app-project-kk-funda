@@ -48,7 +48,7 @@ notifyBuild(currentBuild.result)
 }//pipeline closing
 
 
-def notifyBuild(String buildStatus = 'STARTED') {
+/*def notifyBuild(String buildStatus = 'STARTED') {
   // build status of null means successful
   buildStatus =  buildStatus ?: 'SUCCESS'
 
@@ -72,5 +72,5 @@ def notifyBuild(String buildStatus = 'STARTED') {
 
   // Send notifications
   slackSend (color: colorCode, message: summary, channel: '#airtel-dev')
-}	
+}*/	
 	
