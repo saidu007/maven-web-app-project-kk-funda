@@ -15,7 +15,7 @@ tools
 		sh "mvn clean package"	
 			}
 		}
-		/*stage('SQ Report') {
+		stage('SQ Report') {
 			steps {
 		sh "mvn sonar:sonar"
 			}
@@ -34,7 +34,7 @@ tools
   "http://52.64.253.191:8080/manager/text/deploy?path=/maven-web-application/&update=true"
 """
 }
-}*/
+}
 		
 }		
 } //Pipeline closing
