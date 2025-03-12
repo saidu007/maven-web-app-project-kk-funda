@@ -37,14 +37,14 @@ tools
 }*/
 		
 	} //stages closing		
-post {
+/*post {
   success {
     notifyBuild(currentBuild.result)
   }
   failure {
 notifyBuild(currentBuild.result)
       }
-}
+}*/
 }//pipeline closing
 
 
